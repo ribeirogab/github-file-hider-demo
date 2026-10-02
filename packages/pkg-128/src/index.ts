@@ -1,0 +1,12 @@
+export const value0 = 12800;
+export const value1 = 12801;
+export const value2 = 12802;
+export const value3 = 12803;
+export const value4 = 12804;
+export const value5 = 12805;
+export const value6 = 12806;
+export const value7 = 12807;
+export const value8 = 12808;
+export const value9 = 12809;
+export const value10 = 12810;
+export const value11 = 12811;
