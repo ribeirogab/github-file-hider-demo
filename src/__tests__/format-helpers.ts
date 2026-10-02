@@ -1,0 +1,7 @@
+export function padCents(value: number): string {
+	return String(value).padStart(2, "0");
+}
+
+export function toCents(amount: number): number {
+	return Math.round(amount * 100);
+}
