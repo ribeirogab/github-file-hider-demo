@@ -1,0 +1,12 @@
+export const value0 = 2000;
+export const value1 = 2001;
+export const value2 = 2002;
+export const value3 = 2003;
+export const value4 = 2004;
+export const value5 = 2005;
+export const value6 = 2006;
+export const value7 = 2007;
+export const value8 = 2008;
+export const value9 = 2009;
+export const value10 = 2010;
+export const value11 = 2011;
