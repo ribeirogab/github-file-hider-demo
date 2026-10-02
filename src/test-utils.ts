@@ -1,9 +1,12 @@
   const charges: ChargeRequest[] = [];
+  const responses = [...(options.responses ?? [])];
 
   return {
     charges,
     async charge(request: ChargeRequest) {
       charges.push(request);
-      return { status: "paid", gatewayReference: "fake_ref" };
+      const next = responses.shift() ?? paid();
+      if (next instanceof Error) throw next;
+      return next;
     },
   };
